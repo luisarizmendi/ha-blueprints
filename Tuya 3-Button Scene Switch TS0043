@@ -64,7 +64,7 @@ blueprint:
       default: []
       selector:
         action: null
-  source_url: https://github.com
+  source_url: https://raw.githubusercontent.com/luisarizmendi/ha-blueprints/main/Tuya%203-Button%20Scene%20Switch%20TS0043
 mode: single
 max_exceeded: silent
 variables:
