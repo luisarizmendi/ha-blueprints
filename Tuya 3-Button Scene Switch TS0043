@@ -78,7 +78,7 @@ trigger:
 action:
   - choose:
       - conditions:
-          - "{{ topic.split('/')[1].replace('/', '') == deviceName.split(' ')[0]
+          - "{{ topic.split('/')[1].replace('/', '_') == deviceName.split(' ')[0]
             }}"
         sequence:
           - choose:
